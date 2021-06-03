@@ -1,0 +1,28 @@
+/* FONTS */
+:root{
+    --bold: 700;
+}
+
+/* DESIGN ELEMENTS */
+:root{
+    --border-radius: 10px;
+    --hover-up: translateY(-4px);
+    --transition: 0.3s;
+}
+
+/* OPACITY */
+:root{
+    --opacity: rgba(0, 0, 0, 0.5);
+    --box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.08);
+}
+
+/* COLORS */
+:root{
+    --black: #2B2F30;
+    --white: #FFFFFF;
+    --red: #FF816D;
+    --pink: #FDB0B0;
+    --yellow: #FFD76B;
+    --green: #00848C;
+    --purple: #5F5D9E;
+}
