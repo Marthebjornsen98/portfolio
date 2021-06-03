@@ -34,7 +34,6 @@
 /* Intro about me */
 .intro-me__container {
     width: 100%;
-    height: 100vh;
     margin-top: 250px;
     display: flex;
     align-items: center;
@@ -60,11 +59,51 @@
 /* Slider with skills */
 .skills__container {
     width: 100%;
-    height: 100vh;
+    margin-top: 350px;
 }
 
 .slider {
     width: 100%;
     margin-top: 50px;
     display: flex;
+    padding-bottom: 10px;
+}
+
+.slider__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Education  */
+.education__container {
+    width: 100%;
+    margin-top: 350px;
+}
+
+.education-intro {
+    width: 60%;
+    margin-top: 50px;
+}
+
+.education__fontend,
+.education__graphic {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education__graphic {
+    margin-top: 150px;
+}
+
+.education__text {
+    width: 65%;
+}
+
+.read-more__btn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
 }

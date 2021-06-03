@@ -16,41 +16,48 @@ for (let i = 0; i < navItem.length; i++) {
     };
 };
 
-$(function () {
+function slider() {
     $('.responsive').slick({
         infinite: true,
         dots: true,
-        arrows: true,
+        arrows: false,
         speed: 300,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 7,
+        slidesToScroll: 7,
         responsive: [
             {
-                breakpoint: 991,
+                breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 5,
+                    slidesToScroll: 5,
                     infinite: true,
                     dots: true
                 }
             },
             {
-                breakpoint: 767,
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4
+                }
+            },
+            {
+                breakpoint: 501,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 321,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2
                 }
-            },
-            {
-                breakpoint: 500,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
             }
         ]
     });
-});
+};
 
 slider()
 

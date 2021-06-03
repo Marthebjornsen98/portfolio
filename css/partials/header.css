@@ -6,6 +6,7 @@ header {
     position: fixed;
     top: 0;
     left: 110px;
+    z-index: 99;
     align-items: center;
     justify-content: space-between;
 }
