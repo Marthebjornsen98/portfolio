@@ -34,7 +34,6 @@ h3 {
 }
 
 /* Spam tags */
-
 .body-text {
     font-size: 1.125rem;
 }
@@ -42,6 +41,10 @@ h3 {
 .body-text__bold {
     font-size: 1.125rem;
     font-weight: var(--bold);
+}
+
+.next-line {
+    display: block;
 }
 
 .hyperlink-pink {
@@ -77,4 +80,22 @@ h3 {
     cursor: pointer;
     transition: var(--transition);
     transform: var(--hover-up);
+}
+
+/* JavaScript tags */
+
+.hide {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.show {
+    display: flex;
+}
+
+.background {
+    background-color: var(--white);
 }

@@ -1,5 +1,6 @@
 /* FONTS */
 :root{
+    --regular: 400;
     --bold: 700;
 }
 
@@ -25,4 +26,5 @@
     --yellow: #FFD76B;
     --green: #00848C;
     --purple: #5F5D9E;
+    --transparant: transparent;
 }
