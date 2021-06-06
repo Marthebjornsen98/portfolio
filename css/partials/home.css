@@ -107,3 +107,62 @@
     display: flex;
     justify-content: flex-end;
 }
+
+/* work container */
+.work__container {
+    width: 100%;
+    margin-top: 350px;
+}
+
+.work__intro {
+    margin-top: 50px;
+}
+
+.work__container--list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work__container--item {
+    margin: 50px 0px 50px 0px;
+    width: 31%;
+}
+
+.work__img--museum,
+.work__img--blog,
+.work__img--rainydays {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: var(--border-radius);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.work__img--museum {
+    background-image: url(../../img/mockup_museum.jpeg);
+}
+
+.work__img--blog {
+    background-image: url(../../img/mockup_imac.jpeg);
+}
+
+.work__img--rainydays {
+    background-image: url(../../img/rainydays-mockup.jpeg);
+}
+
+.work__link:hover {
+    padding-bottom: 5px;
+    width: fit-content;
+    transition: var(--transition);
+    transform: var(--hover-up);
+    border-bottom: 6px solid var(--purple);
+}
+
+.bottom__logo {
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+}

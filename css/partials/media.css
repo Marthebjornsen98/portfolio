@@ -9,6 +9,17 @@
 @media (max-width: 767px){
     /* Mobile */
 
+    h2 {
+        flex-direction: column;
+    }
+
+    .hyperlink-pink,
+    .hyperlink-yellow,
+    .hyperlink-green,
+    .hyperlink-purple,
+    .hyperlink-red {
+        margin-left: 0px;
+    }
 }
 
 @media (max-width: 500px){
@@ -40,6 +51,14 @@
 
     .hyperlink-white {
         border-bottom: 4px solid var(--white);
+    }
+
+    .hyperlink-pink,
+    .hyperlink-yellow,
+    .hyperlink-green,
+    .hyperlink-purple,
+    .hyperlink-red {
+        margin-left: 0px;
     }
 }
 
@@ -95,6 +114,22 @@
     .education__text {
         width: 100%;
     }
+
+    .work__container--list {
+        flex-direction: column;
+    }
+
+    .work__container--item {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .work__img--museum,
+    .work__img--blog,
+    .work__img--rainydays {
+        width: 100%;
+        height: 400px;
+    }
 }
 
 @media (max-width: 767px){
@@ -111,8 +146,13 @@
     /* Intro about me */
     .intro-me__container,
     .skills__container,
-    .education__container  {
-        margin-top: 150px;
+    .education__container,
+    .work__container {
+        margin-top: 200px;
+    }
+
+    .bottom__logo {
+        margin-top: 100px;
     }
 
     /* Education */
@@ -155,4 +195,53 @@
     .read-more__btn {
         width: 35%;
     }
+
+    .work__img--museum,
+    .work__img--blog,
+    .work__img--rainydays {
+    height: 300px;
+    }
+}
+
+/* Footer */
+@media (max-width: 991px){
+    /* Tablet */
+
+    .footer__text {
+        width: 40%;
+        margin: 0px 0px 100px 330px;
+    }
+}
+
+@media (max-width: 767px){
+    /* Mobile */
+
+    .footer__text {
+        width: 65%;
+        margin: 0px 0px 100px 50px;
+    }
+}
+
+@media (max-width: 500px){
+    /* Small phone */
+
+    footer {
+        margin-top: 200px;
+        height: 550px;
+    }
+
+    .footer__text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__list {
+        width: 120px;
+        margin: 50px auto 50px auto;
+    }
+
 }

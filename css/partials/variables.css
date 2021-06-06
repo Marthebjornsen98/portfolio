@@ -14,7 +14,7 @@
 /* OPACITY */
 :root{
     --opacity: rgba(0, 0, 0, 0.5);
-    --box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.08);
+    --box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* COLORS */
