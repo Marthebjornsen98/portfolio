@@ -1,4 +1,4 @@
-const header = document.querySelector('header');
+const headerBackground = document.querySelector('.header__container');
 const navList = document.querySelector('.nav__list');
 const navItem = document.querySelectorAll('.nav__item');
 const hamburgerMenu = document.querySelector('#hamburger-menu');
@@ -6,7 +6,7 @@ const hamburgerMenu = document.querySelector('#hamburger-menu');
 // Hamburger menu
 hamburgerMenu.addEventListener('click', () => {
     navList.classList.toggle('show');
-    // header.classList.toggle('background');
+    headerBackground.style.backgroundColor = 'var(--white)';
 });
 
 // Making the nav item bold if clicked on

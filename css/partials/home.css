@@ -1,0 +1,168 @@
+.hero__container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../img/pattern-hero.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.home__heading {
+    font-size: 6rem;
+    font-weight: var(--regular);
+}
+
+.hero__heading {
+    width: 85%;
+    margin: 0px auto;
+    padding-top: 250px;
+}
+
+.work-together {
+    width: 85%;
+    display: flex;
+    margin: 200px auto 0px auto;
+    justify-content: flex-end;
+}
+
+.work-together__link {
+    color: white;
+    width: fit-content;
+    font-size: 1.5rem;
+}
+
+/* Intro about me */
+.intro-me__container {
+    width: 100%;
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-me__text {
+    width: 55%;
+}
+
+.intro-me__text--paragraph {
+    margin-top: 50px;
+}
+
+.intro-me__img--container {
+    width: 40%;
+}
+
+.intro-me__img {
+    width: 100%;
+}
+
+/* Slider with skills */
+.skills__container {
+    width: 100%;
+    margin-top: 350px;
+}
+
+.slider {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.slider__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Education  */
+.education__container {
+    width: 100%;
+    margin-top: 300px;
+}
+
+.education-intro {
+    width: 60%;
+    margin-top: 50px;
+}
+
+.education__fontend,
+.education__graphic {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education__graphic {
+    margin-top: 150px;
+}
+
+.education__text {
+    width: 65%;
+}
+
+.read-more__btn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* work container */
+.work__container {
+    width: 100%;
+    margin-top: 350px;
+}
+
+.work__intro {
+    margin-top: 50px;
+}
+
+.work__container--list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work__container--item {
+    margin: 50px 0px 50px 0px;
+    width: 31%;
+}
+
+.work__img--museum,
+.work__img--blog,
+.work__img--rainydays {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: var(--border-radius);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.work__img--museum {
+    background-image: url(../../img/mockup_museum.jpeg);
+}
+
+.work__img--blog {
+    background-image: url(../../img/mockup_imac.jpeg);
+}
+
+.work__img--rainydays {
+    background-image: url(../../img/rainydays-mockup.jpeg);
+}
+
+.work__link:hover {
+    padding-bottom: 5px;
+    width: fit-content;
+    transition: var(--transition);
+    transform: var(--hover-up);
+    border-bottom: 6px solid var(--purple);
+}
+
+.bottom__logo {
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+}
