@@ -129,3 +129,11 @@ h3 {
     width: 100%;
     height: auto;
 }
+
+.underline__js {
+    padding-bottom: 5px;
+    width: fit-content;
+    transition: var(--transition);
+    transform: var(--hover-up);
+    border-bottom: 6px solid var(--purple);
+}

@@ -27,6 +27,22 @@ const getposts = async (url) => {
             document.querySelector(`.background-img${element.id}`).style.backgroundImage = `url(${element.better_featured_image.media_details.sizes.medium_large.source_url})`;
         });
 
+        // const tags = posts.tags[0];
+        // console.log(tags);
+
+        // const filtered = posts.filter(value => {
+        //     return value >= 0;
+        // });
+        // console.log(filtered)
+
+        // Making the one clicked on bold
+        // const filterItem = document.querySelector('.project__filter--item');
+        // for (let i = 0; i < filterItem.length; i++) {
+        //     if (filterItem[i].href === location.href) {
+        //         filterItem[i].className = 'underline__js';
+        //     };
+        // };
+
     } catch (error) {
         // document.querySelector('.alert').innerHTML = showAlert(
         //     'An error occured, please contact The Modern Apartment',
