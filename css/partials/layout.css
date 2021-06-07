@@ -11,6 +11,7 @@
 body {
     color: var(--black);
     background-color: var(--white);
+    overflow-x: hidden;
 }
 
 .content {
