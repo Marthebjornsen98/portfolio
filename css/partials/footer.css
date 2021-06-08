@@ -1,13 +1,18 @@
 footer {
-    margin-top: 350px;
     width: 100%;
     height: 400px;
-    display: flex;
-    align-items: center;
+    margin-top: 350px;
     background-image: url(../../img/pattern_footer.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
+}
+
+.footer__container {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    align-items: center;
 }
 
 .footer__text {
@@ -27,4 +32,10 @@ footer {
 
 .footer__link:hover {
     font-weight: var(--bold);
+}
+
+.copyright__container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }

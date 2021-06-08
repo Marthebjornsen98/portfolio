@@ -1,13 +1,14 @@
 .header__container {
     width: 100%;
-    height: auto;
-    background-color: var(--transparant);
+    height: 100px;
+    position: fixed;
+    top: 0;
 }
 
 .nav {
     width: 85%;
-    margin: auto;
     height: 100px;
+    margin: auto;
     display: flex;
     position: fixed;
     top: 0;
@@ -17,8 +18,7 @@
     justify-content: space-between;
 }
 
-.hamburger-menu,
-.hamburger-menu__cross {
+.hamburger-menu {
     border: none;
     font-size: 1.875rem;
     background-color: var(--transparant);
@@ -31,10 +31,31 @@
 }
 
 .nav__list {
-    width: 45%;
+    width: 46%;
+    display: flex;
     justify-content: space-between;
+}
+
+.nav__list.hide {
+    display: none;
 }
 
 .nav__item {
     font-size: 1.125rem;
+    padding-bottom: 5px;
+    border-bottom: 4px solid var(--transparant);
+}
+
+.nav__item:hover {
+    cursor: pointer;
+    padding-bottom: 5px;
+    font-weight: var(--bold);
+    transition: var(--transition);
+    transform: var(--hover-up);
+    border-bottom: 4px solid var(--pink);
+}
+
+.clicked {
+    padding-bottom: 5px;
+    border-bottom: 4px solid var(--pink);
 }

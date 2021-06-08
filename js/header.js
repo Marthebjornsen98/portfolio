@@ -5,8 +5,8 @@ const hamburgerMenu = document.querySelector('#hamburger-menu');
 
 // Hamburger menu
 hamburgerMenu.addEventListener('click', () => {
-    navList.classList.toggle('show');
-    headerBackground.classList.toggle('background');
+    navList.classList.toggle('hide');
+    headerBackground.classList.toggle('background')
 });
 
 // Making the nav item bold if clicked on

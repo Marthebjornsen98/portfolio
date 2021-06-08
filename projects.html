@@ -22,7 +22,9 @@
         <div class="header__container">
             <div class="nav">
                 <div class="logo__container">
-                    <img class="logo" src="img/logo.png" alt="Just another design company logo in letters">
+                    <a href="index.html">
+                        <img class="logo" src="img/logo.png" alt="Just another design company logo in letters">
+                    </a>
                 </div>
                 <ul class="hide nav__list">
                     <li class="nav__item"><a class="nav__item" href="index.html">Home</a></li>
@@ -45,12 +47,16 @@
         </div>
 
         <div class="content">
-            <div class="project__filter--container">
+            <div class="loading"></div>
+            <div class="filter__container">
+                <button class="filter-menu" id="filter-menu">
+                    <i class="fas fa-ellipsis-h"></i>
+                </button>
                 <div class="project__filter">
-                    <button class="project__filter--btn">See all</button>
-                    <button class="project__filter--btn">Web design</button>
-                    <button class="project__filter--btn">Editorial design</button>
-                    <button class="project__filter--btn">App design</button>
+                    <button class="project__filter--btn selected" id="filter__btn">See all</button>
+                    <button class="project__filter--btn" id="filter__btn">Web design</button>
+                    <button class="project__filter--btn" id="filter__btn">Editorial design</button>
+                    <button class="project__filter--btn" id="filter__btn">App design</button>
                 </div>
             </div>
 
@@ -62,25 +68,35 @@
     </main>
 
     <footer>
-        <div class="footer__text">
-            <div class="footer__list">
-                <h3>About</h3>
-                <ul class="footer__items">
-                    <li class="footer__link"><a class="footer__link" href="about.html">Get to know me</a></li>
-                    <li class="footer__link"><a class="footer__link" href="about.html">Education</a></li>
-                    <li class="footer__link"><a class="footer__link" href="about.html">Jobs</a></li>
-                </ul>
-            </div>
-            <div class="footer__list">
-                <h3>Contact</h3>
-                <ul class="footer__items">
-                    <li class="footer__link"><a class="footer__link" href="contact.html">Instagram</a></li>
-                    <li class="footer__link"><a class="footer__link" href="contact.html">Phone</a></li>
-                    <li class="footer__link"><a class="footer__link" href="contact.html">Mail</a></li>
-                </ul>
+        <div class="footer__container">
+            <div class="footer__text">
+                <div class="footer__list">
+                    <h3>About</h3>
+                    <ul class="footer__items">
+                        <li class="footer__link"><a class="footer__link" href="about.html">Get to know me</a></li>
+                        <li class="footer__link"><a class="footer__link" href="about.html">Education</a></li>
+                        <li class="footer__link"><a class="footer__link" href="about.html">Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="footer__list">
+                    <h3>Contact</h3>
+                    <ul class="footer__items">
+                        <li class="footer__link"><a class="footer__link" href="contact.html">Instagram</a></li>
+                        <li class="footer__link"><a class="footer__link" href="contact.html">Phone</a></li>
+                        <li class="footer__link"><a class="footer__link" href="contact.html">Mail</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
+        <div class="copyright__container">
+            <p class="body-text__bold">©Just Another Design Company 2021</p>
+        </div>
     </footer>
+
+    <!-- Lottiefiles -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <!-- My scripts -->
     <script src="js/projects.js"></script>
     <script src="js/header.js"></script>
 </body>

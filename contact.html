@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Welcome! This is my portfolio, here you can read about my old and upcoming projects.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marthe Bjørnsen</title>
+
+    <!-- Css Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="nav">
+                <div class="logo__container">
+                    <a href="index.html">
+                        <img class="logo" src="img/logo.png" alt="Just another design company logo in letters">
+                    </a>
+                </div>
+                <ul class="hide nav__list">
+                    <li class="nav__item"><a class="nav__item" href="index.html">Home</a></li>
+                    <li class="nav__item"><a class="nav__item" href="projects.html">Projects</a></li>
+                    <li class="nav__item"><a class="nav__item" href="about.html">About</a></li>
+                    <li class="nav__item"><a class="nav__item" href="contact.html">Contact</a></li>
+                </ul>
+                <button class="hamburger-menu" id="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero__container--contact">
+            <div class="hero__heading--contact">
+                <h1 class="hide"></h1>
+                <div class="contact__info--container">
+                    <h2>Find me.</h2>
+                    <div class="contact__info">
+                        <p class="body-text__bold">+47 959 06 263</p>
+                        <p class="body-text__bold">@anotherdesigncompany</p>
+                        <p class="body-text__bold">bjornsendesign@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="contact__form--container">
+                <h2 class="heading__contact">Contact <span class="hyperlink-green__contact">me.</span></h2>
+                <p class="body-text">
+                    Fill out the form and I will get back to you within 24 hours. I like being on a first name basis,
+                    it also helps me get in touch with you. Let’s talk!
+                </p>
+                <form class="contact__form">
+                    <input type="text" placeholder="Name" id="name" class="contact__form--item">
+                    <p class="body-text__error hide nameError">Please enter a name over five characters</p>
+
+                    <input type="text" placeholder="Email" id="email" class="contact__form--item">
+                    <p class="body-text__error hide emailError">Please enter a valid email</p>
+
+                    <div class="subject__container">
+                        <p class="body-text__bold">Message:</p>
+                        <textarea placeholder="Write me something!" id="message"></textarea>
+                        <p class="body-text__error hide messageError">Please enter a message over 25 characters</p>
+                    </div>
+
+                    <div class="contact__form--btn">
+                        <a href="contact-confirmation.html">
+                            <img class="submit__btn" src="img/contact-form_btn.svg" alt="Asymmetrical pink button">
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer__container">
+            <div class="footer__text">
+                <div class="footer__list">
+                    <h3>About</h3>
+                    <ul class="footer__items">
+                        <li class="footer__link"><a class="footer__link" href="about.html">Get to know me</a></li>
+                        <li class="footer__link"><a class="footer__link" href="about.html">Education</a></li>
+                        <li class="footer__link"><a class="footer__link" href="about.html">Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="footer__list">
+                    <h3>Contact</h3>
+                    <ul class="footer__items">
+                        <li class="footer__link"><a class="footer__link" href="contact.html">Instagram</a></li>
+                        <li class="footer__link"><a class="footer__link" href="contact.html">Phone</a></li>
+                        <li class="footer__link"><a class="footer__link" href="contact.html">Mail</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright__container">
+            <p class="body-text__bold">©Just Another Design Company 2021</p>
+        </div>
+    </footer>
+
+    <script src="js/header.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>

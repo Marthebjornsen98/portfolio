@@ -1,0 +1,108 @@
+.hero__container--about {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../img/pattern-about.jpeg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about__me--container {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.about__me {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__me--paragraph {
+    width: 47%;
+}
+
+.about__instagram--container {
+    margin-top: 200px;
+    width: 100%;
+}
+
+.about__instagram {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.insta__one,
+.insta__two,
+.insta__three,
+.insta__four,
+.insta__five,
+.insta__six {
+    width: 200px;
+    height: 200px;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insta__one {
+    background-image: url(../../img/rainydays-mockup.jpeg);
+}
+
+.insta__two {
+    background-image: url(../../img/friendly-coffee.jpeg);
+}
+
+.insta__three {
+    background-image: url(../../img/mockup_still-tasty3.jpeg);
+}
+
+.insta__four {
+    background-image: url(../../img/mockup-psychology2.png);
+}
+
+.insta__five {
+    background-image: url(../../img/mockup-gooddonation.jpeg);
+}
+
+.insta__six {
+    background-image: url(../../img/mockup-deichman.jpeg);
+}
+
+.follow-me__btn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.follow-me__btn:hover {
+    cursor: pointer;
+    transition: var(--transition);
+    transform: var(--hover-up);
+}
+
+.funfact__container {
+    margin-top: 200px;
+    width: 100%;
+}
+
+.blob__img {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border-radius: var(--border-radius);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../img/blob-pink.svg);
+}
+
+.funfact__text {
+    width: 60%;
+    margin-left: 100px;
+}
