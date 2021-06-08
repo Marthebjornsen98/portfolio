@@ -40,6 +40,16 @@ h3 {
     font-weight: var(--bold);
 }
 
+/* Background image plain */
+.hero__container--plain {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../img/pattern-simple.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
 /* Spam tags */
 .body-text {
     font-size: 1.125rem;

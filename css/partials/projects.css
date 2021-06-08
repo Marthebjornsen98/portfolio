@@ -1,12 +1,3 @@
-.hero__container--plain {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../../img/pattern-simple.svg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-}
-
 .project__filter {
     display: flex;
     flex-wrap: wrap;

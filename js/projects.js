@@ -1,6 +1,6 @@
 const postsAPI = 'https://noroffcors.herokuapp.com/https://anotherdesigncompany.bjornsendesign.tech/wp-json/wp/v2/posts';
-const filterList = document.querySelector('#filter__btn');
-const filter = [];
+// const filterList = document.querySelector('#filter__btn');
+// const filter = [];
 
 // API Call
 const getposts = async (url) => {
@@ -22,8 +22,7 @@ const getposts = async (url) => {
         });
 
         posts.forEach(element => {
-            if (element.tags.includes(tag)) {
-                document.querySelector('.work__container--list').innerHTML += `
+            document.querySelector('.work__container--list').innerHTML += `
                     <div class="work__container--item">
                         <a href="project-specific.html?id=${element.id}">
                             <div class="work__img background-img${element.id}"></div>
@@ -35,8 +34,8 @@ const getposts = async (url) => {
                     </div>
                 `;
 
-                document.querySelector(`.background-img${element.id}`).style.backgroundImage = `url(${element.better_featured_image.media_details.sizes.medium_large.source_url})`;
-            }
+            document.querySelector(`.background-img${element.id}`).style.backgroundImage = `url(${element.better_featured_image.media_details.sizes.medium_large.source_url})`;
+
         });
 
     } catch (error) {
@@ -65,16 +64,16 @@ getMoreBtn.onclick = function () {
     getMoreBtn.style.display = 'none';
 };
 
-filterBtn.onkeyup = (e) => {
-    search = e.target.value.trim().toLowerCase();
-    const sResultBlogs = fullBlogs.filter((blog) => {
-        return blog.title.rendered.toLowerCase().includes(search);
-    });
-    getBlogCards(sResultBlogs);
-};
+// filterBtn.onkeyup = (e) => {
+//     search = e.target.value.trim().toLowerCase();
+//     const sResultBlogs = fullBlogs.filter((blog) => {
+//         return blog.title.rendered.toLowerCase().includes(search);
+//     });
+//     getBlogCards(sResultBlogs);
+// };
 
 // let tag = 21;
-const filterBtn = document.querySelector('#filter__btn');
+// const filterBtn = document.querySelector('#filter__btn');
 
 // filterBtn.onclick = () => {
 //     tag = 22;

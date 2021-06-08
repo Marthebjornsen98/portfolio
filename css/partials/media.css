@@ -1,5 +1,3 @@
-/* Header section */
-
 /* Layout  */
 @media (max-width: 991px){
     /* Tablet */
@@ -64,7 +62,7 @@
     }
 
     .hero__container--plain {
-        background-position: center;
+        background-position: left;
     }
 
     .hyperlink-pink {
@@ -285,6 +283,56 @@
 
     .project__filter--btn {
         margin-bottom: 20px;
+    }
+}
+
+/* Project specific page */
+@media (max-width: 991px){
+    /* Tablet */
+
+    .project__intro,
+    .project__description--text {
+        width: 100%;
+    }
+
+    .project__container {
+        margin-top: 50px;
+    }
+
+    .project__description {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+    /* mobile */
+
+    .detail__img--container {
+        flex-direction: column;
+    }
+
+    .detail__img--one {
+        width: 100%;
+    }
+
+    .detail__img--two {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 500px){
+    /* Small phone */
+
+    .project__img,
+    .project__description,
+    .detail__img--container {
+        margin-top: 50px;
+    }
+
+    .detail__img--one,
+    .detail__img--two {
+        height: 380px;
     }
 }
 
