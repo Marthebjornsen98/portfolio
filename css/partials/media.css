@@ -613,6 +613,10 @@
 @media (max-width: 991px){
     /* Tablet */
 
+
+@media (max-width: 991px){
+    /* Tablet */
+
     .confirmation__body-text {
         width: 65%;
     }
@@ -620,11 +624,6 @@
     .gif__container {
         padding-top: 160px;
     }
-
-    .gif {
-        margin-left: 120px;
-    }
-    
 }
 
 @media (max-width: 768px){
