@@ -184,7 +184,8 @@
 @media (max-width: 991px){
     /* Tablet */
 
-    .home__heading {
+    .home__heading,
+    .home__heading--bottom {
         font-size: 5rem;
     }
 
@@ -245,7 +246,8 @@
 @media (max-width: 768px){
     /* Mobile */
 
-    .home__heading {
+    .home__heading,
+    .home__heading--bottom {
         margin-top: 50px;
         font-size: 3.25rem;
     }
@@ -279,7 +281,8 @@
         background-position: center;
     }
 
-    .home__heading {
+    .home__heading,
+    .home__heading--bottom {
         font-size: 3.25rem;
     }
 

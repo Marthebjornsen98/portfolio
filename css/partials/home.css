@@ -166,3 +166,8 @@
     display: flex;
     justify-content: center;
 }
+
+.home__heading--bottom {
+    font-size: 6rem;
+    font-weight: var(--bold);
+}
