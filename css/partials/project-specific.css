@@ -6,23 +6,6 @@
     width: 70%;
 }
 
-.project__img ,
-.detail__img--one,
-.detail__img--two {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    box-shadow: var(--box-shadow);
-    border-radius: var(--border-radius);
-}
-
-.project__img {
-    width: 100%;
-    height: 600px;
-    margin-top: 100px;
-    background-image: url(../../img/mockup-deichman.jpeg);
-}
-
 .project__description {
     width: 100%;
     display: flex;
@@ -41,14 +24,138 @@
     justify-content: space-between;
 }
 
-.detail__img--one {
+.link__container {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.link {
+    margin-right: 20px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid var(--transparant);
+}
+
+.link:hover {
+    width: fit-content;
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 5px;
+    transition: var(--transition);
+    transform: var(--hover-up);
+    border-bottom: 4px solid var(--red);
+}
+
+/* All image styles */
+.deichman__img,
+.rainydays__img,
+.streetz__img,
+.blog__img,
+.science__img,
+.deichman__img--one,
+.deichman__img--two,
+.rainydays__img--one,
+.rainydays__img--two,
+.streetz__img--one,
+.streetz__img--two,
+.blog__img--one,
+.blog__img--two,
+.science__img--one,
+.science__img--two {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+}
+
+/* Big image styles */
+.deichman__img,
+.rainydays__img,
+.streetz__img,
+.blog__img,
+.science__img  {
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+}
+
+/* Small images styles */
+.deichman__img--one,
+.deichman__img--two,
+.rainydays__img--one,
+.rainydays__img--two,
+.streetz__img--one,
+.streetz__img--two,
+.blog__img--one,
+.blog__img--two,
+.science__img--one,
+.science__img--two {
     width: 49%;
-    height: 450px;
+    height: 500px;
+}
+
+/* Deichman */
+.deichman__img {
     background-image: url(../../img/mockup-deichman.jpeg);
 }
 
-.detail__img--two {
-    width: 49%;
-    height: 450px;
-    background-image: url(../../img/mockup-deichman.jpeg);
+.deichman__img--one {
+    background-image: url(../../img/mockup-deichman2.jpeg);
+}
+
+.deichman__img--two {
+    background-image: url(../../img/mockup-deichman3.jpeg);
+}
+
+/* Rainydays */
+.rainydays__img {
+    background-image: url(../../img/rainydays-mockup.jpeg);
+}
+
+.rainydays__img--one {
+    background-image: url(../../img/mockup-rainydays2.jpeg);
+}
+
+.rainydays__img--two {
+    background-image: url(../../img/mockup-rainydays3.jpeg);
+}
+
+/* Streetz magazine */
+.streetz__img {
+    background-image: url(../../img/street-magazine_cover.jpeg);
+}
+
+.streetz__img--one {
+    background-image: url(../../img/street-magazine2.jpeg);
+}
+
+.streetz__img--two {
+    background-image: url(../../img/street-magazine.jpeg);
+}
+
+/* A Modern Apartment blog */
+.blog__img {
+    background-image: url(../../img/mockup_imac.jpeg);
+}
+
+.blog__img--one {
+    background-image: url(../../img/mockup-blog2.jpeg);
+}
+
+.blog__img--two {
+    background-image: url(../../img/mockup-blog3.jpeg);
+}
+
+/* Science Magazine */
+.science__img {
+    background-image: url(../../img/mockup-psychology.jpeg);
+}
+
+.science__img--one {
+    background-image: url(../../img/mockup-psychology2.jpeg);
+}
+
+.science__img--two {
+    background-image: url(../../img/mockup-psychology3.jpeg);
 }
