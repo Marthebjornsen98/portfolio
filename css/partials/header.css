@@ -45,12 +45,6 @@
     transform: var(--hover-up);
 }
 
-/* .nav__list {
-    width: 46%;
-    display: flex;
-    justify-content: space-between;
-} */
-
 .nav__list.hide {
     display: none;
 }
@@ -67,7 +61,7 @@
     font-weight: var(--bold);
     transition: var(--transition);
     transform: var(--hover-up);
-    border-bottom: 4px solid var(--pink);
+    border-bottom: 4px solid var(--purple);
 }
 
 .clicked {

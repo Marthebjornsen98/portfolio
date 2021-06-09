@@ -332,7 +332,7 @@
     /* mobile */
 
     .filter-menu {
-        margin-top: 100px;
+        margin-top: 0px;
         display: flex;
         justify-content: flex-end;
     }
