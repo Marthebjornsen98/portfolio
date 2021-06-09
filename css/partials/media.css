@@ -228,6 +228,10 @@
         width: 100%;
     }
 
+    .education__img--container {
+        margin-top: 50px;
+    }
+
     .work__container--list {
         flex-direction: column;
     }
@@ -610,10 +614,6 @@
 }
 
 /* Contact Confirmation page */
-@media (max-width: 991px){
-    /* Tablet */
-
-
 @media (max-width: 991px){
     /* Tablet */
 
