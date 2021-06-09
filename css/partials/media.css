@@ -406,11 +406,6 @@
     }
 }
 
-@media (max-width: 768px){
-    /* mobile */
-
-}
-
 @media (max-width: 500px){
     /* Small phone */
 
@@ -613,6 +608,67 @@
         margin: 0px 0px 100px 0px;
     }
 }
+
+/* Contact Confirmation page */
+@media (max-width: 991px){
+    /* Tablet */
+
+    .confirmation__body-text {
+        width: 65%;
+    }
+
+    .gif__container {
+        padding-top: 160px;
+    }
+
+    .gif {
+        margin-left: 120px;
+    }
+    
+}
+
+@media (max-width: 768px){
+    /* Mobile */
+
+    .confirmation__body-text {
+        width: 90%;
+    }
+
+    .gif__container {
+        padding-top: 200px;
+    }
+
+    #gif {
+        width: 400px;
+        height: 400px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 500px){
+    /* Small phone */
+
+    .confirmation__body-text {
+        width: 100%;
+    }
+
+    #gif {
+        width: 350px;
+        height: 350px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 360px){
+    /* Even smaller Phone */
+
+    #gif {
+        width: 280px;
+        height: 280px;
+        margin-left: 0px;
+    }
+}
+
 
 /* Footer */
 @media (max-width: 991px){

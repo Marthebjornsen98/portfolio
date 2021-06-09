@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Welcome! This is my portfolio, here you can read about my old and upcoming projects.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marthe Bjørnsen</title>
+
+    <!-- Css Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="nav">
+                <div class="logo__container">
+                    <a href="index.html">
+                        <img class="logo" src="img/logo.png" alt="Just another design company logo in letters">
+                    </a>
+                </div>
+                <div class="nav__container">
+                    <ul class="hide nav__list">
+                        <li class="nav__item"><a class="nav__item" href="index.html">Home</a></li>
+                        <li class="nav__item"><a class="nav__item" href="projects.html">Projects</a></li>
+                        <li class="nav__item"><a class="nav__item" href="about.html">About</a></li>
+                        <li class="nav__item"><a class="nav__item" href="contact.html">Contact</a></li>
+                    </ul>
+                    <button class="hamburger-menu" id="hamburger-menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero__container--confirmation">
+            <div class="gif__container">
+                <div class="confirmation__text">
+                    <h2>A great big thanks!</h2>
+                    <div class="confirmation__body-text">
+                        <p class="body-text">
+                            I will be in conact with you shortly,
+                            in the meantime you can browse through my projects
+                            <span class="body-text__bold"><a href="projects.html">here!</a></span>
+                        </p>
+                    </div>
+                </div>
+                <lottie-player id="gif" src="https://assets2.lottiefiles.com/packages/lf20_bp1bwvhv.json"
+                    background="transparent" speed="1" loop autoplay>
+                </lottie-player>
+            </div>
+        </div>
+
+    </main>
+    <!-- <footer></footer> -->
+
+    <!-- Lottiefiles -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <!-- My scripts -->
+    <script src="js/header.js"></script>
+</body>
+
+</html>
