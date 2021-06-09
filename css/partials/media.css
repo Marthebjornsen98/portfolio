@@ -135,10 +135,6 @@
 @media (max-width: 768px){
     /* Tablet */
 
-    .header__container {
-        height: 100%;
-    }
-
     .nav {
         margin-top: 50px;
         height: auto;
@@ -161,6 +157,12 @@
     .nav__item {
         font-size: 1.875rem;
         margin-bottom: 20px;
+    }
+
+    .height {
+        width: 100%;
+        height: 100%;
+        background-color: var(--white);
     }
 }
 

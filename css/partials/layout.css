@@ -141,9 +141,9 @@ h3 {
 }
 
 .background {
-    background-color: var(--white);
     width: 100%;
     height: auto;
+    background-color: var(--white);
 }
 
 .underline__js {
