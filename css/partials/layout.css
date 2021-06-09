@@ -44,7 +44,7 @@ h3 {
 .hero__container--plain {
     width: 100vw;
     height: 100vh;
-    background-image: url(../../img/pattern-simple.svg);
+    background-image: url(../../img/pattern_img/pattern-simple.svg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
@@ -152,4 +152,10 @@ h3 {
     transition: var(--transition);
     transform: var(--hover-up);
     border-bottom: 6px solid var(--purple);
+}
+
+.loading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

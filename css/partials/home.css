@@ -1,7 +1,7 @@
 .hero__container {
     width: 100vw;
     height: 100vh;
-    background-image: url(../../img/pattern-hero.svg);
+    background-image: url(../../img/pattern_img/pattern-hero.svg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;

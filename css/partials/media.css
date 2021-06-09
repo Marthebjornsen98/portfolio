@@ -36,7 +36,7 @@
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
     /* Small phone */
 
     .nav {
@@ -45,7 +45,7 @@
     }
 
     .logo__container {
-        width: 40%;
+        width: 45%;
     }
 
     .logo {
@@ -99,6 +99,68 @@
     .hyperlink-purple,
     .hyperlink-red {
         margin-left: 0px;
+    }
+}
+
+@media (max-width: 500px){
+    /* Small Phone */
+
+    .logo__container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 380px){
+    /* Even smaller phone */
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .logo__container {
+        width: 100%;
+    }
+}
+
+/* Header section */
+@media (max-width: 991px){
+    /* Tablet */
+
+    .nav__list {
+        width: 70%;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    /* Tablet */
+
+    .header__container {
+        height: 100%;
+    }
+
+    .nav {
+        margin-top: 50px;
+        height: auto;
+        align-items: flex-start;
+    }
+
+    .nav__container {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .nav__list {
+        width: 100%;
+        margin: 100px 0px 0px 0px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .nav__item {
+        font-size: 1.875rem;
+        margin-bottom: 20px;
     }
 }
 
@@ -184,6 +246,7 @@
     /* Mobile */
 
     .home__heading {
+        margin-top: 50px;
         font-size: 3.25rem;
     }
 
@@ -299,41 +362,103 @@
         margin-top: 50px;
     }
 
-    .project__description {
+    .project__description,
+    .detail__img--container {
         flex-direction: column;
+    }
+
+    .detail__img--container {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .deichman__img--one,
+    .deichman__img--two,
+    .rainydays__img--one,
+    .rainydays__img--two,
+    .streetz__img--one,
+    .streetz__img--two,
+    .blog__img--one,
+    .blog__img--two,
+    .science__img--one,
+    .science__img--two,
+    .donation__img--one,
+    .donation__img--two,
+    .sprekenhus__img--one,
+    .sprekenhus__img--two,
+    .friendly__img--one,
+    .friendly__img--two,
+    .home__img--one,
+    .home__img--two,
+    .tasty__img--one,
+    .tasty__img--two,
+    .museum__img--one,
+    .museum__img--two,
+    .capasand__img--one,
+    .capasand__img--two {
+        width: 100%;
+        margin-top: 50px;
     }
 }
 
 @media (max-width: 768px){
     /* mobile */
 
-    .detail__img--container {
-        flex-direction: column;
-    }
-
-    .detail__img--one {
-        width: 100%;
-    }
-
-    .detail__img--two {
-        width: 100%;
-        margin-top: 50px;
-    }
 }
 
 @media (max-width: 500px){
     /* Small phone */
 
+    .project__container,
     .project__img,
     .project__description,
     .detail__img--container {
         margin-top: 50px;
     }
 
-    .detail__img--one,
-    .detail__img--two {
+    .deichman__img,
+    .rainydays__img,
+    .streetz__img,
+    .blog__img,
+    .science__img,
+    .donation__img,
+    .sprekenhus__img,
+    .friendly__img,
+    .home__img,
+    .tasty__img,
+    .museum__img,
+    .capasand__img {
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    .deichman__img--one,
+    .deichman__img--two,
+    .rainydays__img--one,
+    .rainydays__img--two,
+    .streetz__img--one,
+    .streetz__img--two,
+    .blog__img--one,
+    .blog__img--two,
+    .science__img--one,
+    .science__img--two,
+    .donation__img--one,
+    .donation__img--two,
+    .sprekenhus__img--one,
+    .sprekenhus__img--two,
+    .friendly__img--one,
+    .friendly__img--two,
+    .home__img--one,
+    .home__img--two,
+    .tasty__img--one,
+    .tasty__img--two,
+    .museum__img--one,
+    .museum__img--two,
+    .capasand__img--one,
+    .capasand__img--two {
         height: 380px;
     }
+
 }
 
 /* About page  */
@@ -542,7 +667,7 @@
 
     .copyright__container {
         width: 85%;
-        margin: 50px auto 0px auto;
+        margin: 50px 0px 0px 25px;
         padding-left: 0px;
         justify-content: flex-start;
     }

@@ -1,7 +1,7 @@
 .hero__container--about {
     width: 100vw;
     height: 100vh;
-    background-image: url(../../img/pattern-about.jpeg);
+    background-image: url(../../img/pattern_img/pattern-about.jpeg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@
 }
 
 .insta__two {
-    background-image: url(../../img/friendly-coffee.jpeg);
+    background-image: url(../../img/mockup-friendly-coffee.jpeg);
 }
 
 .insta__three {

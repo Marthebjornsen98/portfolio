@@ -19,6 +19,20 @@
     justify-content: space-between;
 }
 
+.nav__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+}
+
+.nav__list {
+    width: 75%;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .hamburger-menu {
     border: none;
     font-size: 1.875rem;
@@ -31,11 +45,11 @@
     transform: var(--hover-up);
 }
 
-.nav__list {
+/* .nav__list {
     width: 46%;
     display: flex;
     justify-content: space-between;
-}
+} */
 
 .nav__list.hide {
     display: none;

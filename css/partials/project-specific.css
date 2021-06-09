@@ -52,6 +52,13 @@
 .streetz__img,
 .blog__img,
 .science__img,
+.donation__img,
+.sprekenhus__img,
+.friendly__img,
+.home__img,
+.tasty__img,
+.museum__img,
+.capasand__img,
 .deichman__img--one,
 .deichman__img--two,
 .rainydays__img--one,
@@ -61,7 +68,21 @@
 .blog__img--one,
 .blog__img--two,
 .science__img--one,
-.science__img--two {
+.science__img--two,
+.donation__img--one,
+.donation__img--two,
+.sprekenhus__img--one,
+.sprekenhus__img--two,
+.friendly__img--one,
+.friendly__img--two,
+.home__img--one,
+.home__img--two,
+.tasty__img--one,
+.tasty__img--two,
+.museum__img--one,
+.museum__img--two,
+.capasand__img--one,
+.capasand__img--two {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -74,9 +95,16 @@
 .rainydays__img,
 .streetz__img,
 .blog__img,
-.science__img  {
+.science__img,
+.donation__img,
+.sprekenhus__img,
+.friendly__img,
+.home__img,
+.tasty__img,
+.museum__img,
+.capasand__img {
     width: 100%;
-    height: 600px;
+    height: 650px;
     margin-top: 100px;
 }
 
@@ -90,7 +118,21 @@
 .blog__img--one,
 .blog__img--two,
 .science__img--one,
-.science__img--two {
+.science__img--two,
+.donation__img--one,
+.donation__img--two,
+.sprekenhus__img--one,
+.sprekenhus__img--two,
+.friendly__img--one,
+.friendly__img--two,
+.home__img--one,
+.home__img--two,
+.tasty__img--one,
+.tasty__img--two,
+.museum__img--one,
+.museum__img--two,
+.capasand__img--one,
+.capasand__img--two {
     width: 49%;
     height: 500px;
 }
@@ -158,4 +200,95 @@
 
 .science__img--two {
     background-image: url(../../img/mockup-psychology3.jpeg);
+}
+
+/* Good Donation */
+.donation__img {
+    background-image: url(../../img/mockup-gooddonation.jpeg);
+}
+
+.donation__img--one {
+    background-image: url(../../img/mockup-gooddonation2.jpeg);
+}
+
+.donation__img--two {
+    background-image: url(../../img/mockup-gooddonation3.jpeg);
+}
+
+/* Sprekenhus - Soap */
+.sprekenhus__img {
+    background-image: url(../../img/mockup-soap.jpeg);
+}
+
+.sprekenhus__img--one {
+    background-image: url(../../img/mockup-soap2.jpeg);
+}
+
+.sprekenhus__img--two {
+    background-image: url(../../img/mockup-soap3.jpeg);
+}
+
+/* Friendly Coffee */
+.friendly__img {
+    background-image: url(../../img/mockup-friendly-coffee4.jpeg);
+}
+
+.friendly__img--one {
+    background-image: url(../../img/mockup-friendly-coffee.jpeg);
+}
+
+.friendly__img--two {
+    background-image: url(../../img/mockup-friendly-coffee2.jpeg);
+}
+
+/* Home interior magazine */
+.home__img {
+    background-image: url(../../img/mockup-home.jpeg);
+}
+
+.home__img--one {
+    background-image: url(../../img/mockup-home2.jpeg);
+}
+
+.home__img--two {
+    background-image: url(../../img/mockup-home3.jpeg);
+}
+
+/* Still Tasty app */
+.tasty__img {
+    background-image: url(../../img/mockup_still-tasty.jpeg);
+}
+
+.tasty__img--one {
+    background-image: url(../../img/mockup_still-tasty4.jpeg);
+}
+
+.tasty__img--two {
+    background-image: url(../../img/mockup_still-tasty3.jpeg);
+}
+
+/* Science Museum Website */
+.museum__img {
+    background-image: url(../../img/mockup-museum2.jpeg);
+}
+
+.museum__img--one {
+    background-image: url(../../img/mockup-museum.jpeg);
+}
+
+.museum__img--two {
+    background-image: url(../../img/mockup-museum3.jpeg);
+}
+
+/* Health website for customer */
+.capasand__img {
+    background-image: url(../../img/mockup-capasand.jpeg);
+}
+
+.capasand__img--one {
+    background-image: url(../../img/mockup-capasand5.jpeg);
+}
+
+.capasand__img--two {
+    background-image: url(../../img/mockup-capasand3.jpeg);
 }
