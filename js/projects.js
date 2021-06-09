@@ -27,9 +27,9 @@ const getposts = async (url) => {
                         <a href="project-specific.html?id=${element.id}">
                             <div class="work__img background-img${element.id}"></div>
                         </a>
-                        <h3>
-                            <a class="work__link" href="project-specific.html?id=${element.id}">${element.title.rendered}</a>
-                        </h3>
+                        <a class="work__link" href="project-specific.html?id=${element.id}">
+                            <h3>${element.title.rendered}</h3>
+                        </a>
                         <p class="body-text">${element.excerpt.rendered}</p>
                     </div>
                 `;
