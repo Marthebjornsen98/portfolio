@@ -579,13 +579,28 @@
     .insta__four,
     .insta__five,
     .insta__six {
-        width: 100%;
+        width: 300px;
         height: 300px;
         margin-right: 0px;
     }
 
     .funfact__text {
         margin-left: 25px;
+    }
+}
+
+@media (max-width: 350px){
+    /* Really small phone */
+
+    .insta__one,
+    .insta__two,
+    .insta__three,
+    .insta__four,
+    .insta__five,
+    .insta__six {
+        width: 240px;
+        height: 300px;
+        margin-right: 0px;
     }
 }
 
