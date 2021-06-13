@@ -133,7 +133,7 @@
 }
 
 @media (max-width: 768px){
-    /* Tablet */
+    /* Mobile */
 
     .nav {
         margin-top: 50px;
@@ -195,7 +195,6 @@
         margin: 280px auto 0px auto;
     }
 
-    /* Intro about me */
     .intro-me__container {
         flex-direction: column;
     }
@@ -209,7 +208,6 @@
         margin-top: 100px;
     }
 
-    /* Education */
     .education-intro {
         width: 100%;
     }
@@ -262,7 +260,6 @@
         margin: 350px auto 0px auto;
     }
 
-    /* Intro about me */
     .intro-me__container,
     .skills__container,
     .education__container,
@@ -274,7 +271,6 @@
         margin-top: 100px;
     }
 
-    /* Education */
     .education__img--container {
        margin-top: 50px;
     }
@@ -296,7 +292,6 @@
         display: none;
     }
 
-     /* Intro about me */
     .intro-me__container {
         margin-top: 50px;
     }
@@ -462,7 +457,6 @@
     .capasand__img--two {
         height: 380px;
     }
-
 }
 
 /* About page  */
@@ -475,7 +469,7 @@
 }
 
 @media (max-width: 1300px){
-    /* Laptop */
+    /* Smaller Laptop */
 
     .hide-five {
         display: none;
@@ -667,7 +661,6 @@
         margin-left: 0px;
     }
 }
-
 
 /* Footer */
 @media (max-width: 991px){
