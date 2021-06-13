@@ -23,7 +23,7 @@ async function getProject(id) {
 
     } catch (error) {
         document.querySelector('.alert').innerHTML = showAlert(
-            'An error occured, please contact The Modern Apartment',
+            'An error occured, please contact Just Another Design Company',
             'danger'
         );
         console.log(error);

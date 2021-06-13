@@ -1,43 +1,39 @@
-const postsAPI = 'https://noroffcors.herokuapp.com/https://anotherdesigncompany.bjornsendesign.tech/wp-json/wp/v2/posts';
+const projectAPI = 'https://noroffcors.herokuapp.com/https://anotherdesigncompany.bjornsendesign.tech/wp-json/wp/v2/posts';
 
 // API Call
-const getposts = async (url) => {
+const getprojects = async (url) => {
     try {
         document.querySelector('.loading').innerHTML = `
         <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_nezwixcz.json" background="transparent" speed="1" style="width: 500px; height: 500px;" loop autoplay></lottie-player>
         `;
 
         const response = await fetch(url);
-        const posts = await response.json();
-        console.log(posts)
+        const projects = await response.json();
+        console.log(projects);
 
-        for (let i = 0; i < posts.length; i++) {
+        for (let i = 0; i < projects.length; i++) {
+            if (i === 3) {
+                break;
+            }
+
             document.querySelector('.work__container--list').innerHTML += `
                 <div class="work__container--item">
-                    <a href="project-specific.html?id=${posts[i].id}">
-                        <div class="work__img background-img${posts[i].id}"></div>
+                    <a href="project-specific.html?id=${projects[i].id}">
+                        <div class="work__img background-img${projects[i].id}"></div>
                     </a>
-                    <a href="project-specific.html?id=${posts[i].id}">
-                        <h3 class="work__link">${posts[i].title.rendered}</h3>
-                    </a>
-                    <p class="body-text">${posts[i].excerpt.rendered}</p>
+                    <h3 class="work__link"><a href="project-specific.html?id=${projects[i].id}">${projects[i].title.rendered}</a></h3>
+                    <p class="body-text">${projects[i].excerpt.rendered}</p>
                 </div>
             `;
 
-            document.querySelector(`.background-img${posts[i].id}`).style.backgroundImage = `url(${posts[i].better_featured_image.media_details.sizes.medium_large.source_url})`;
-
-            if (i === 2) {
-                break;
-            }
+            document.querySelector(`.background-img${projects[i].id}`).style.backgroundImage = `url(${projects[i].better_featured_image.media_details.sizes.medium_large.source_url})`;
         }
 
     } catch (error) {
         document.querySelector('.alert').innerHTML = showAlert(
-            'An error occured, please contact The Modern Apartment',
+            'An error occured, please contact Just Another Design Company',
             'danger'
         );
-
-        console.log(error);
 
     } finally {
         setTimeout(function () {
@@ -48,7 +44,7 @@ const getposts = async (url) => {
     };
 };
 
-getposts(postsAPI);
+getprojects(projectAPI);
 
 function slider() {
     $('.responsive').slick({
