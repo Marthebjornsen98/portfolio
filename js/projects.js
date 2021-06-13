@@ -1,6 +1,4 @@
 const postsAPI = 'https://noroffcors.herokuapp.com/https://anotherdesigncompany.bjornsendesign.tech/wp-json/wp/v2/posts';
-// const filterList = document.querySelector('#filter__btn');
-// const filter = [];
 
 // API Call
 const getposts = async (url) => {
@@ -27,29 +25,28 @@ const getposts = async (url) => {
                         <a href="project-specific.html?id=${element.id}">
                             <div class="work__img background-img${element.id}"></div>
                         </a>
-                        <a class="work__link" href="project-specific.html?id=${element.id}">
-                            <h3>${element.title.rendered}</h3>
+                        <a href="project-specific.html?id=${element.id}">
+                            <h3 class="work__link">${element.title.rendered}</h3>
                         </a>
                         <p class="body-text">${element.excerpt.rendered}</p>
                     </div>
                 `;
 
             document.querySelector(`.background-img${element.id}`).style.backgroundImage = `url(${element.better_featured_image.media_details.sizes.medium_large.source_url})`;
-
         });
 
     } catch (error) {
-        // document.querySelector('.alert').innerHTML = showAlert(
-        //     'An error occured, please contact The Modern Apartment',
-        //     'danger'
-        // );
+        document.querySelector('.alert').innerHTML = showAlert(
+            'An error occured, please contact The Modern Apartment',
+            'danger'
+        );
 
         console.log(error);
 
     } finally {
-        // setTimeout(function () {
-        //     document.querySelector('.alert').innerHTML = ``;
-        // }, 3000);
+        setTimeout(function () {
+            document.querySelector('.alert').innerHTML = ``;
+        }, 3000);
 
         document.querySelector('.loading').innerHTML = ``;
     };
@@ -63,21 +60,3 @@ getMoreBtn.onclick = function () {
     getposts(postsAPI + `?page=2`);
     getMoreBtn.style.display = 'none';
 };
-
-// filterBtn.onkeyup = (e) => {
-//     search = e.target.value.trim().toLowerCase();
-//     const sResultBlogs = fullBlogs.filter((blog) => {
-//         return blog.title.rendered.toLowerCase().includes(search);
-//     });
-//     getBlogCards(sResultBlogs);
-// };
-
-// let tag = 21;
-// const filterBtn = document.querySelector('#filter__btn');
-
-// filterBtn.onclick = () => {
-//     tag = 22;
-//     console.log(tag);
-// }
-
-// console.log(tag);

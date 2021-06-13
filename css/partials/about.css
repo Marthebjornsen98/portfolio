@@ -73,6 +73,17 @@
     background-image: url(../../img/mockup-deichman.jpeg);
 }
 
+.insta__one:hover,
+.insta__two:hover,
+.insta__three:hover,
+.insta__four:hover,
+.insta__five:hover,
+.insta__six:hover {
+    cursor: pointer;
+    transition: var(--transition);
+    transform: var(--hover-up);
+}
+
 .follow-me__btn {
     margin-top: 50px;
     display: flex;

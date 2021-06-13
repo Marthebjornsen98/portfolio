@@ -154,11 +154,16 @@
     background-image: url(../../img/rainydays-mockup.jpeg);
 }
 
-.work__link:hover {
+.work__link {
     padding-bottom: 5px;
-    width: fit-content;
+    border-bottom: 6px solid var(--transparant);
+}
+
+.work__link:hover {
     transition: var(--transition);
     transform: var(--hover-up);
+    padding-bottom: 5px;
+    width: fit-content;
     border-bottom: 6px solid var(--purple);
 }
 

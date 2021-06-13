@@ -159,3 +159,32 @@ h3 {
     display: flex;
     justify-content: center;
 }
+
+/* Alert message */
+.alert {
+	width: 100%;
+}
+
+.danger {
+	background-color: rgb(255 124 124);
+	color: red;
+	border: solid 1px red;
+	padding: 20px;
+	transition: 2s;
+}
+
+.success {
+	background-color: rgb(148, 247, 139);
+	color: darkgreen;
+	border: solid 1px darkgreen;
+	padding: 20px;
+	transition: 2s;
+}
+
+.default {
+	background-color: rgb(255, 200, 80);
+	color: orange;
+	border: solid 1px orange;
+	padding: 20px;
+	transition: 2s;
+}

@@ -53,7 +53,19 @@
     background-size: cover;
 }
 
+.work__img:hover {
+    cursor: pointer;
+    transition: var(--transition);
+    transform: var(--hover-up);
+}
+
 .get-more__container {
     display: flex;
     justify-content: flex-end;
+}
+
+.get-more__btn:hover {
+    cursor: pointer;
+    transition: var(--transition);
+    transform: var(--hover-up);
 }

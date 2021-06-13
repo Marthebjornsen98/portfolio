@@ -59,16 +59,16 @@ submitBtn.onclick = (event) => {
         };
 
     } catch (error) {
-        // document.querySelector('.alert').innerHTML = showAlert(
-        //     'An error occured, please contact The Modern Apartment',
-        //     'danger'
-        // );
+        document.querySelector('.alert').innerHTML = showAlert(
+            'An error occured, please contact The Modern Apartment',
+            'danger'
+        );
 
         console.log(error);
 
     } finally {
-        // setTimeout(function () {
-        //     document.querySelector('.alert').innerHTML = '';
-        // }, 3000);
+        setTimeout(function () {
+            document.querySelector('.alert').innerHTML = '';
+        }, 3000);
     };
 };
